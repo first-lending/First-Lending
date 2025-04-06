@@ -1,0 +1,86 @@
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+form, table, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+     table {
+    border-collapse: collapse;
+    font-size: 12px;
+    cursor: default;
+}
+ table td {
+    padding: 5px 10px 6px 14px;
+    border: #DDE0E4 1px solid;
+    color: #666;
+}
+input[type="text"], input[type="number"], input[type="submit"], input[type="button"], input[type="reset"], button, select {
+    height: 29px !important;
+    line-height: 29px;
+    border: #dde0e4 1px solid;
+    font-size: 13px;
+    background: #fff;
+    color: #333;
+    padding: 0 0 1px 10px;
+    display: block;
+}
+
+textarea {
+    border: #dde0e4 1px solid;
+    font-size: 13px;
+    background: #fff;
+    color: #333;
+    padding: 0 0 1px 10px;
+    display: block;
+}
+
+
+input[type="text"], input[type="number"], { font-size: 12px !important; font-weight:bold;}
+input[type="text"].input-off { font-size: 12px !important; font-weight:bold;}
+input[type="text"]:focus, input[type="number"]:focus, textarea:focus { border: 1px solid #bbb; color: #000; font-weight: bold; }
+input[type="submit"], input[type="button"], input[type="reset"], button {
+    padding: 0 10px 2px;
+    height: 34px;
+    line-height: 30px;
+    cursor: pointer;
+    border: 1px solid #DDE0E4;
+    background: #EFEFEF;
+    color: #888;
+}
+
+input[type="text"].results {color:#08B5DB ; font-weight: bold; font-size: 15px; height: 33px; background:#FFFFCC}
+
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, button:hover { color: #fff; }
+textarea {
+    height: 140px;
+    width: 700px;
+    line-height: 20px;
+    padding: 6px 10px 6px 10px;
+}
+fieldset { overflow: hidden; padding-bottom: 20px; }
+label {
+    float: left;
+    height: 30px;
+    font-size: 13px;
+    line-height: 30px;
+    padding-right: 10px;
+}
+label.error, p.error {
+    clear: both;
+    width: auto;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 4px;
+    height: auto;
+    color: #b73939;
+}
+input.error, textarea.error, select.error, input.error:focus, textarea.error:focus, select.error:focus { border: #b73939 1px solid; }
+p.error { font-size: 14px; }
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover, button:hover { color: #fff; background-color: #08B5DB }
+
